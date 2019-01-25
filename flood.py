@@ -13,7 +13,7 @@ emails = ["outlook.com", "gmail.com", "yahoo.com", "hotmail.com", "aol.com", "ic
 random.seed = (os.urandom(1024))
 
 # This is the URL you want to flood. Should be a login page
-url = 'https://secure.runescape.com-an.top/m=weblogin/loginform524,517,693,86531436,105'
+url = 'https://kcs.cx/test5'
 
 names = json.loads(open('names.json').read())
 
