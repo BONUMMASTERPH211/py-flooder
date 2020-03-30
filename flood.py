@@ -33,7 +33,6 @@ for name in names:
 	r = requests.post(url, allow_redirects=False, data={
 		'username': user,
 		'password': password,
-                #'g-captcha-response': '03ADlfD1-Uag3u7R-igURj7sfbiP_1r1cRjxIKdpbpvqP6Q5RJm6vAAQTTrjYhoC0-EVWRmX7MCMJSxEVrtSMim0RF-CFwL6BMoJcb-3lBrMMP2JGzxm5hOvgrzLIvEjV_2q41UzzByQ91AzSs9NRvQWYdJ7GV5ZeFxu-RJli0DnuV-APV-55spFSU6sjrJKLCs2-b-MZfwGZ3_AcKrdUD7Ui-KFCWFVlclGb0exoZHIDl6ALPHWtcYN409La_H2LQB27aLbEsLrpiWoghIXPwj__F0o2fN4jvuQ'
 	})
 
 	n += 1
