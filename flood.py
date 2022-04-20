@@ -13,7 +13,7 @@ emails = ["outlook.com", "gmail.com", "yahoo.com", "hotmail.com", "aol.com", "ic
 random.seed = (os.urandom(1024))
 
 # This is the URL you want to flood. Should be a login page
-url = 'encorecapital.biz/user/login'
+url = 'https://encorecapital.biz/user/login'
 
 names = json.loads(open('names.json').read())
 
